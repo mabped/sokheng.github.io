@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.header {
+    background: #334546;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 150px;
+    line-height: 3;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    background: #383737;
+}
+
+.nav {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+
+.navbar h1 {
+    color: #fff;
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.actity {
+    background: #862B2B;
+    color: #fff;
+}
+
+ul {
+    flex: 1;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 13px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    background: #ffffff;
+    font-family: sans-serif;
+    padding: 10px 10px;
+
+}
+
+
+ul li a::after {
+    content: '';
+    width: 0;
+    height: 10px;
+    background: #578288;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    transition: 0.5s;
+}
+
+ul li a:hover::after {
+    width: 100%;
+}
+
+.navbar-icons img {
+    height: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.navbar-icons {
+    margin-left: 40px;
+}
+
+.banner {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 80px;
+}
+
+
+.left-column h3 {
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+}
+
+.right-column img {
+    width: 300px;
+    height: 454.67px;
+}
+
+
+.search-box {
+    width: 45%;
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #334546;
+    margin: 10px 0 30px;
+}
+
+.search-box img {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.search-box  input {
+    width: 100%;
+    margin-left: 15px;
+    font-size: 17px;
+    border: 0;
+    outline: none;
+}
+
+.left-column h1 {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Marck Script', cursive;
+    font-weight: 300;
+}
+
+span {
+    color: #fff;
+} 
+
+.left-column p {
+    font-size: 18px;
+    color: #fff;
+    margin: 30px 0;
+    font-family: sans-serif;
+}
+
+.social-icons {
+    width: 200px;
+    text-align: center;
+    opacity: .4;
+    margin-left: 160px;
+}
+
+.social-icons img {
+    height: 20px;
+    margin: 0 14px;
+}
+
+.social-icons::after {
+    content: '';
+    width: 150px;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: -160px;
+    top: 10px;
+}
+
+
+.study img {
+    width: 534px;
+    width: 502px;
+    padding: 7px 80px;
+}
+
+
+/*about*/
+
+.about {
+    width: 100%;
+    height: 770px;
+    background: #334546;
+}
+
+.about h1 {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 300;
+    line-height: 4;
+    font-size: 50px;
+}
+
+.school {
+    width: 100%;
+    display: flex;
+    height: 370px;
+}
+
+.school img {
+    width: 300px;
+    height: 254px;
+}
+
+.school h3 {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 20px;
+    
+}
+
+.school p {
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: 20px;
+    
+}
+
+.house {
+    width: 300px;
+    margin: auto;
+
+}
+
+.btn {
+    width: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.btn button{
+    padding: 7px 30px;
+    margin-right: 15px;
+    background: #862B2B;
+    color: #fff;
+    border: none;
+    width: 150px;
+}
+
+
+/*contact*/ 
+
+.contact {
+    width: 100%;
+    height: 540px;
+    background-color: #334546;
+}
+
+
+.contact h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Marck Script', cursive;
+}
+
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1;
+    font-family: 'Dosis', sans-serif;
+  }
+
+input {
+    height: 45px;
+}
+
+form .submit {                
+    background: #862B2B;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #6f0000;
+    cursor: pointer;
+}
+
+.sent {
+    width: 30%;
+    margin: auto;
+}
+
+.map {
+    width: 100%;
+    height: 700px;
+    background: #334546;
+}
+
+.map h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Marck Script', cursive;
+}
+
+.side-map {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .contact h1 {
+        margin: auto;
+    }
+    .sent {
+        margin-left: 320px;
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .sent {
+        margin-left: 220px;
+    }
+  }
+
+  @media only screen and (max-width: 950px) {
+    .school {
+        width: 100%;
+        height: 370px;    
+        display: block;
+    }
+    .sent {
+        margin-left: 120px;
+    }
+    .contact {
+        margin-top: 840px;
+    }
+
+    .form-control {
+        width: 458px;
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .banner {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 710px) {
+    .nav {
+        display: block;
+        width: auto;
+    }
+    .navbar {
+        height: 230px;
+    }
+    ul {
+        padding: 0px 68px;
+    }
+    .navbar h1 {
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    .form-control {    
+        width: 390px;
+    }
+    .left-column h1 {
+        font-size: 45px;
+    }
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .form-control {    
+        width: 280px;
+        margin-left: -20px;
+    }
+    .right-column img {
+        padding-left: 45px;
+    }
+
+    .house {
+        padding-bottom: 35px;
+    }
+
+    .contact h1 {   
+        font-weight: 300;
+    }
+    form .submit {
+        letter-spacing: 1px;
+        font-size: 17px;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    ul {
+        padding: 0px 40px;
+    }
+    .navbar {
+        line-height: 2;
+    }
+    .contact {
+        width: 100%;
+        height: 460px;
+        background-color: #334546;
+    }
+  }
